@@ -1,0 +1,57 @@
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Using Roboto font */
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark text */
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2rem;
+    color: #007bff; /* Blue color for headings */
+}
+
+/* Loader styles */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px; /* Full height loader */
+}
+
+/* Post card styles with gradient background */
+.post-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f4f8 100%); /* Gradient background for post cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Shadow effect */
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for transform and shadow */
+}
+
+/* Hover effect for post cards */
+.post-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25); /* Darker shadow on hover */
+}
+
+/* No posts styles */
+.no-posts {
+    text-align: center;
+    margin-top: 20px;
+    color: #888; /* Lighter text for no posts message */
+}
+
+/* Error message styles */
+.error-message {
+    color: #d9534f; /* Red color for error messages */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
